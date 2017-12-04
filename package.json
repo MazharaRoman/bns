@@ -1,0 +1,22 @@
+{
+  "name": "ebanas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Mazhara",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.12.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "prettier": "^1.8.2"
+  },
+  "eslintConfig": {
+    "extends": ["airbnb-base", "prettier"]
+  }
+}
